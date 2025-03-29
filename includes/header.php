@@ -8,9 +8,11 @@
           <link rel="stylesheet" href="../css/main.css">
       </head>
       <body>
-         <div id="container">
+         <div class="container">
           <header>
              <?php include 'menu.php'; ?>
+             <img src="../images/leaves.png">
+             <img src="../images/leaves2.png">
              <img src="../images/emma.png">
              <h1>Emma Webb</h1>
           </header>
