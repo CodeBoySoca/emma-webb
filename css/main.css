@@ -1,4 +1,12 @@
 
+
+@font-face {
+  font-family: 'Andale-Mono';
+  src: url('../fonts/AndaleMono.woff') format('woff'),
+       url('../fonts/AndaleMono.ttf') format('truetype');
+}
+
+
 :root {
   --brown: #2F2720;
   --orange: #F84A4C;
@@ -16,6 +24,7 @@ html {
 body {
   background: #ECE9D9;
   padding: 1%;
+  height: 100vh;
 }
 
 .container {
@@ -27,6 +36,13 @@ h1 {
  font: 400 normal 2.4em "Amarante", serif;
  color: var(--orange);
  text-align: center;
+ margin-top: 10px;
+}
+
+h3 {
+ font: 400 normal 1.4em "Amarante", serif;
+ color: var(--brown);
+ margin: 20px 0;
 }
 
 header {
@@ -73,4 +89,32 @@ menu li a {
 
 menu li a:hover {
   color: var(--orange);
+}
+
+main {
+  width: 60%;
+  height: 68vh;
+  margin: 0 auto;
+}
+
+main p {
+  color: var(--brown);
+  font-family: 'Andale-Mono', sans-serif;
+  font-size: 0.8em;
+  line-height: 2em;
+  margin-bottom: 15px;
+}
+
+
+
+footer menu li a {
+  color: var(--brown);
+  font: 400 normal 0.8em 'Andale-Mono', sans-serif;
+}
+
+.copyright {
+  color: var(--brown);
+  font: 400 normal 0.8em 'Andale-Mono', sans-serif;
+  text-align: center;
+  margin: 25px 0;
 }
