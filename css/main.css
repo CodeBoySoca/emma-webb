@@ -23,12 +23,12 @@ html {
 body {
   background: #ECE9D9;
   padding: 1%;
-  height: 100vh;
 }
 
 .container {
   border: 5px solid var(--brown);
   padding: 2%;
+  height: auto;
 }
 
 h1 {
@@ -92,8 +92,8 @@ menu li a:hover {
 
 main {
   width: 60%;
-  height: 68vh;
-  margin: 5% auto 0 auto;
+  height: auto;
+  margin: 5% auto 15% auto;
 }
 
 main p {
@@ -172,4 +172,18 @@ main form input[type='submit']{
   cursor: pointer;
   float: right;
   clear: left;
+}
+
+/* Ahcievements */
+
+
+section ul  {
+  margin-bottom: 50px;
+}
+
+section ul li {
+  list-style-type: '- ';
+  margin-bottom: 15px;
+  font: 400 normal 0.9em 'Andale-Mono', sans-serif;
+  color: var(--brown);
 }
