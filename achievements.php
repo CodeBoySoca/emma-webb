@@ -1,6 +1,6 @@
 <?php include 'includes/header.php'; ?>
 <main>
-   <section>
+   <section id="achievements">
      <h3>Achievements</h3>
      <p>
        Emma Webb is dedicated to growing and hitting significant milestones along with having

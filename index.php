@@ -1,5 +1,6 @@
 <?php include 'includes/header.php'; ?>
 <main>
+   <section>
     <h3>About</h3>
     <p>
         I've always believed that storytelling exists in many forms - whether through the lens
@@ -24,5 +25,6 @@
         practicing yoga, or working on my upcoming collection of essays about the fashion
         industry's evolution in the digital age.
     </p>
+   </section>
 </main>
 <?php include 'includes/footer.php'; ?>
