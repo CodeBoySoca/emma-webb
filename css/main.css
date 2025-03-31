@@ -6,7 +6,6 @@
        url('../fonts/AndaleMono.ttf') format('truetype');
 }
 
-
 :root {
   --brown: #2F2720;
   --orange: #F84A4C;
@@ -33,16 +32,16 @@ body {
 }
 
 h1 {
- font: 400 normal 2.4em "Amarante", serif;
- color: var(--orange);
- text-align: center;
- margin-top: 10px;
+  font: 400 normal 2.4em "Amarante", serif;
+  color: var(--orange);
+  text-align: center;
+  margin-top: 10px;
 }
 
 h3 {
- font: 400 normal 1.4em "Amarante", serif;
- color: var(--brown);
- margin: 20px 0;
+  font: 400 normal 1.4em "Amarante", serif;
+  color: var(--brown);
+  margin: 20px 0;
 }
 
 header {
@@ -94,7 +93,7 @@ menu li a:hover {
 main {
   width: 60%;
   height: 68vh;
-  margin: 0 auto;
+  margin: 5% auto 0 auto;
 }
 
 main p {
@@ -104,8 +103,6 @@ main p {
   line-height: 2em;
   margin-bottom: 15px;
 }
-
-
 
 footer menu li a {
   color: var(--brown);
@@ -117,4 +114,62 @@ footer menu li a {
   font: 400 normal 0.8em 'Andale-Mono', sans-serif;
   text-align: center;
   margin: 25px 0;
+}
+
+
+/* Contact page */
+
+main form input {
+  border: 2px solid var(--brown);
+  margin-bottom: 25px;
+  background: #E2DFCD;
+  outline: transparent;
+}
+
+form input::placeholder,
+main form textarea::placeholder {
+  color: var(--brown);
+  font: 400 normal 0.8em 'Andale-Mono', sans-serif;
+}
+
+main form input[type='text']{
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+}
+
+main form input[type='email']{
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+}
+
+main form textarea {
+  border: 2px solid var(--brown);
+  width: 100%;
+  height: 150px;
+  padding: 5px 0 0 10px;
+  margin-bottom: 25px;
+  background: #E2DFCD;
+  color: var(--brown);
+  font: 400 normal 0.9em 'Andale-Mono', sans-serif;
+  outline: transparent;
+}
+
+#bot-check {
+  width: 12em;
+  height: 46px;
+  margin-right: 15px;
+  float: right;
+  clear: left;
+}
+
+main form input[type='submit']{
+  width: 15em;
+  height: 50px;
+  background: var(--orange);
+  color: #fafafa;
+  cursor: pointer;
+  float: right;
+  clear: left;
 }
